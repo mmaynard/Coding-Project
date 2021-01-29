@@ -24,7 +24,7 @@ class App extends Component {
   componentDidMount() {
     //initial loading of data
     this.loadData();
-    setInterval(this.loadData.bind(this), 3000);
+    setInterval(this.loadData.bind(this), 60000);
   }
 
   loadData() {
